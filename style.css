@@ -1,0 +1,323 @@
+:root {
+    --main-font : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*main 스크롤바 없앰*/
+body {
+    -ms-overflow-style: none;
+    font-family: var(--main-font);
+} 
+::-webkit-scrollbar { 
+    display: none; }
+
+#contents {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    /* 배경 선 조합 */
+    background-image: 
+    url("images/hr.png"),
+    /* 배경 그라데이션 설정 */
+    linear-gradient(106.06deg, #070310 0%, #6C358E 100%);
+    background-repeat: no-repeat, no-repeat;
+}
+#contents #title {
+    position: absolute;
+    /*박스 크기*/
+    width: 20%;
+    height: 13%;
+    left: 21%;
+    top: 55%;
+    border: 5px solid #C8AC31;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 50px;
+    /* or 161% */
+    text-align: center;
+    color: #C8AC31;
+    transform: matrix(1, 0.32, 0, 0.96, 0, 0);
+    z-index: 6;
+}
+#contents #title2 {
+    position: absolute;
+    /*박스 크기*/
+    width: 20%;
+    height: 13%;
+    left: 22%;
+    top: 53%;
+    border: 5px solid #724D70;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transform: matrix(1, 0.32, 0, 0.96, 0, 0);
+}
+#contents #logo {
+    position: absolute;
+    width: 10%;
+    height: 14%;
+    left: 24%;
+    top: 76%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #D9BD2A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    z-index: 7;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+    cursor: pointer;
+}
+#contents #logo2{
+    position: absolute;
+    width: 10%;
+    height: 14%;
+    left: 25%;
+    top: 75%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #734E70;
+    box-sizing: border-box;
+    border-radius: 5px;
+    z-index: 6;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+}
+#contents #box1 {
+    position: absolute;
+    width: 36%;
+    height: 40%;
+    left: 15%;
+    top: 40%;
+    border: 5px solid;
+    border-image-source: linear-gradient(180deg, 
+                #D9BD2A 0%, 
+                rgba(217, 189, 42, 0) 
+                48.33%);
+    border-image-slice: 1;
+    color : #FFD600;
+    z-index: 5;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+    cursor: pointer;
+}
+#contents .nameBox1 {
+    position: absolute;
+    width: 3%;
+    height: 25%;
+    left: 52%;
+    top: 56%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 250%;
+    color: #D09898;
+    opacity: 0.6;
+    border: 3px solid #D09898;
+    box-sizing: border-box;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+}
+#contents #box2 {
+    position: absolute;
+    width: 36%;
+    height: 18%;
+    left: 22%;
+    top: 37%;
+    border : 5px solid;
+    border-image-source: linear-gradient(180deg, 
+                #D9BD2A 0.01%, 
+                rgba(217, 189, 42, 0) 
+                48.33%);
+    border-image-slice: 1;
+    color : #FFD600;
+    z-index: 4;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+    cursor: pointer;
+}
+#contents .nameBox2 {
+    position: absolute;
+    width: 3%;
+    height: 25%;
+    left: 59%;
+    top: 52%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 250%;
+    color: #D09898;
+    opacity: 0.6;
+    border: 3px solid #D09898;
+    box-sizing: border-box;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+}
+#contents #box3 {
+    position: absolute;
+    width: 36%;
+    height: 18%;
+    left: 29%;
+    top: 33%;
+    border : 5px solid;
+    border-image-source: linear-gradient(180deg, 
+                #D9BD2A 0.01%, 
+                rgba(217, 189, 42, 0) 
+                48.33%);
+    border-image-slice: 1;
+    color : #FFD600;
+    z-index: 3;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+    cursor: pointer;
+}
+#contents .nameBox3 {
+    position: absolute;
+    width: 3%;
+    height: 25%;
+    left: 66%;
+    top: 48%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 250%;
+    color: #D09898;
+    opacity: 0.6;
+    border: 3px solid #D09898;
+    box-sizing: border-box;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+}
+#contents #box4 {
+    position: absolute;
+    width: 36%;
+    height: 18%;
+    left: 36%;
+    top: 29%;
+    border : 5px solid;
+    border-image-source: linear-gradient(180deg, 
+                #D9BD2A 0.01%, 
+                rgba(217, 189, 42, 0) 
+                48.33%);
+    border-image-slice: 1;
+    color : #FFD600;
+    z-index: 2;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+    cursor: pointer;
+}
+#contents .nameBox4 {
+    position: absolute;
+    width: 3%;
+    height: 25%;
+    left: 73%;
+    top: 44%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 250%;
+    color: #D09898;
+    opacity: 0.6;
+    border: 3px solid #D09898;
+    box-sizing: border-box;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+}
+#contents #box5 {
+    position: absolute;
+    width: 36%;
+    height: 18%;
+    left: 43%;
+    top: 25%;
+    border : 5px solid;
+    border-image-source: linear-gradient(180deg, 
+                #D9BD2A 0.01%, 
+                rgba(217, 189, 42, 0) 
+                48.33%);
+    border-image-slice: 1;
+    color : #FFD600;
+    z-index: 1;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+    cursor: pointer;
+}
+#contents .nameBox5 {
+    position: absolute;
+    width: 3%;
+    height: 25%;
+    left: 80%;
+    top: 40%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 250%;
+    color: #D09898;
+    opacity: 0.6;
+    border: 3px solid #D09898;
+    box-sizing: border-box;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+}
+#contents #box6 {
+    position: absolute;
+    width: 36%;
+    height: 18%;
+    left: 50%;
+    top: 21%;
+    border : 5px solid;
+    border-image-source: linear-gradient(180deg, 
+                #D9BD2A 0.01%, 
+                rgba(217, 189, 42, 0) 
+                48.33%);
+    border-image-slice: 1;
+    color : #FFD600;
+    z-index: 0;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+    cursor: pointer;
+}
+#contents .nameBox6 {
+    position: absolute;
+    width: 3%;
+    height: 25%;
+    left: 87%;
+    top: 36%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 185%;
+    color: #D09898;
+    opacity: 0.6;
+    border: 3px solid #D09898;
+    box-sizing: border-box;
+    transform: matrix(1, 0.34, 0, 0.95, 0, 0);
+}
+.box1img {
+    position: relative;
+    left: 30%;
+    top: 25%;
+    z-index: 5;
+}
+.box2img {
+    position: relative;
+    left: 22%;
+    top: 23%;
+    z-index: 4;
+}
+.box3img {
+    position: relative;
+    left: 13%;
+    top: 18%;
+    z-index: 3;
+}
+.box4img {
+    position: relative;
+    left: 4%;
+    top: 14.5%;
+    z-index: 2;
+}
+.box5img {
+    position: relative;
+    left: -8%;
+    top: 8%;
+    z-index: 1;
+}
+.box6img {
+    position: relative;
+    left: -17%;
+    top: 4%;
+    z-index: 0;
+}

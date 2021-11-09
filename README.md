@@ -1,1 +1,2 @@
-# yoona-j.github.io
+# artudent_e
+이 디자인과 코드에 대한 저작권은 아튜던트에 있습니다.

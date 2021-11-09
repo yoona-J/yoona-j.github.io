@@ -1,0 +1,177 @@
+:root {
+    --main-font : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*main 스크롤바 없앰*/
+body {
+    -ms-overflow-style: none;
+    font-family: var(--main-font);
+} 
+::-webkit-scrollbar { 
+    display: none; }
+
+#all {
+    position: absolute;
+    background-image: 
+    linear-gradient(106.06deg, #070310 0%, #6C358E 100%);
+    width: 100%;
+    height: 100%;
+}
+.img1 {
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    width: 35%;
+    height: 80%;
+}
+.midLine {
+    position: absolute;
+    width: 87.5%;
+    height: 0%;
+    left: -5%;
+    border: 2px solid #D9BD2A;
+    transform: rotate(-90deg);
+}
+.homebutton {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 2%;
+    top: 88%;
+    font-size: 30px;
+    color : #D9BD2A;
+    background: rgba(196, 196, 196, 0.01);
+    border: 1px solid #D9BD2A;
+    border-radius: 5px;
+}
+.href {
+    position: absolute;
+    left: 65%;
+    top: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+/*방문 전 href*/
+a:link {
+    color : #FFD600;
+}
+/*방문 후 href*/
+a:visited {
+    color: #FFD600;
+}
+.ellipse1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left : 38%;
+    top: 30%;
+    border-radius:75px;
+    border : 3px solid #D8B1B1;
+}
+.ellipse11 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left : 40%;
+    top: 31.5%;
+    border-radius:75px;
+    background-color: #D9BD2A;
+}
+.ellipse2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left : 38%;
+    top: 50%;
+    border-radius: 75px;
+    border : 3px solid #D8B1B1;
+}
+.ellipse22 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left : 40%;
+    top: 51.5%;
+    border-radius: 75px;
+    background-color: #D9BD2A;
+}
+.text1 {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    font-size: 20px;
+    line-height: 170%;
+    color: #D8B1B1;
+}
+.text2 {
+    position: absolute;
+    left: 45%;
+    top: 47%;
+    font-size: 20px;
+    line-height: 170%;
+    color: #D8B1B1;
+}
+.artudent1 {
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    left: 82%;
+    top: 50%;
+}
+.artudent2 {
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    left: 82%;
+    top: 22%;
+}
+.insta {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 45%;
+    top: 75%;
+}
+.insta2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 45%;
+    top: 85%;
+}
+.text3 {
+    position: absolute;
+    left : 49%;
+    top: 75.5%;
+    font-size: 24px;
+    color: #D09898;
+}
+.rightbutton1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 57%;
+    top: 75%;
+    border-radius: 75px;
+    border: 2px solid #D9BD2A;
+    font-size : 20px;
+    background: rgba(196, 196, 196, 0.01);
+}
+.text4 {
+    position: absolute;
+    left : 49%;
+    top: 85.5%;
+    font-size: 24px;
+    color: #D09898;
+}
+.rightbutton2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 57%;
+    top: 85%;
+    border-radius: 75px;
+    border: 2px solid #D9BD2A;
+    font-size : 20px;
+    background: rgba(196, 196, 196, 0.01);
+}

@@ -1,0 +1,356 @@
+:root {
+    --main-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*main 스크롤바 없앰*/
+body {
+    -ms-overflow-style: none;
+    font-family: var(--main-font);
+} 
+::-webkit-scrollbar { 
+    display: none; }
+
+/* artist */
+.work {
+    position: absolute;
+    left: 33%;
+    top: 24%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    /* identical to box height, or 52% */
+    display: flex;
+    align-items: center;
+    color: #CEB0B0;
+    transform: rotate(-90deg);
+    font-family: var(--main-font);
+}
+/* 이름 */
+.name {
+    position: absolute;
+    left: 38%;
+    top: 15%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 25px;
+    /* identical to box height, or 69% */
+    color: #D9BD2A;
+    font-family: var(--main-font);
+}
+/* 노랑 박스 */
+.square {
+    position: absolute;
+    width: 62%;
+    height: 130%;
+    left: 38%;
+    top: 19%;
+    border: 4px solid #EFE2A4;
+    box-sizing: border-box;
+}
+.img1 {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 4%;
+    top: 30%;
+    background: #C4C4C4;
+}
+.title1 {
+    position: absolute;
+    left: 4%;
+    top: 92%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 96% */
+    display: flex;
+    align-items: center;
+    color: #D09898;
+    font-family: var(--main-font);
+}
+.textbox1 {
+    position: absolute;
+    left: 4%;
+    top: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 278% */
+    display: flex;
+    align-items: center;
+    color: #472B5B;
+    font-family: var(--main-font);
+}
+.title2 {
+    position: absolute;
+    left: 68%;
+    top: 45%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 96% */
+    display: flex;
+    align-items: center;
+    color: #D09898;
+    font-family: var(--main-font);
+}
+.textbox2 {
+    position: absolute;
+    left: 43%;
+    top: 55%;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 278% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #472B5B;
+    font-family: var(--main-font);
+}
+.img2 {
+    position: absolute;
+    width: 20%;
+    height: 45%;
+    left: 76%;
+    top: 30%;
+    background: #C4C4C4;
+}
+.title3 {
+    position: absolute;
+    left: 68%;
+    top: 105%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 96% */
+    display: flex;
+    align-items: center;
+    color: #D09898;
+    font-family: var(--main-font);
+}
+.textbox3 {
+    position: absolute;
+    left: 43%;
+    top: 115%;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 278% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #472B5B;
+    font-family: var(--main-font);
+}
+.img3 {
+    position: absolute;
+    width: 20%;
+    height: 45%;
+    left: 76%;
+    top: 88%;
+    background: #C4C4C4;
+}
+.img4 {
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    left: 5%;
+    top: 155%;
+    background: #C4C4C4;
+}
+.title4 {
+    position: absolute;
+    left: 42%;
+    top: 175%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height, or 69% */
+    display: flex;
+    align-items: center;
+    color: #D09898;
+    font-family: var(--main-font);
+}
+.textbox4 {
+    position: absolute;
+    left: 42%;
+    top: 185%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+    /* or 278% */
+    display: flex;
+    align-items: center;
+    color: #472B5B;
+    font-family: var(--main-font);
+}
+.one {
+    position: absolute;
+    left: 38%;
+    top: 231%;
+    font-size: 30px;
+    color: #D7D7D7;
+    font-family: var(--main-font);
+}
+.two {
+    position: absolute;
+    left: 42%;
+    top: 231%;
+    font-size: 30px;
+    color: #D7D7D7;
+    font-family: var(--main-font);
+}
+.three {
+    position: absolute;
+    left: 46%;
+    top: 231%;
+    font-size: 30px;
+    color: #D7D7D7;
+    font-family: var(--main-font);
+}
+.four {
+    position: absolute;
+    left: 50%;
+    top: 231%;
+    font-size: 30px;
+    color: #D7D7D7;
+    font-family: var(--main-font);
+}
+.five {
+    position: absolute;
+    left: 54%;
+    top: 231%;
+    font-size: 30px;
+    color: #D7D7D7;
+    font-family: var(--main-font);
+}
+#container1 .one {
+    color: #9B9B9B;
+}
+#container2 .two {
+    color: #9B9B9B;
+}
+#container3 .three {
+    color: #9B9B9B;
+}
+#container4 .four {
+    color: #9B9B9B;
+}
+#container5 .five {
+    color: #9B9B9B;
+}
+.home {
+    position: absolute;
+    left: 10%;
+    top: 231%;
+    font-size: 30px;
+    color: #9B9B9B;
+    font-family: var(--main-font);
+}
+.copyright {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0%;
+    top: 240%;
+    padding : 1.5%;
+    text-align: center;
+    color: #472B5B;
+    font-family: var(--main-font);
+}
+.homeButton {
+    position: absolute;
+    left: 5%;
+    top: 230%;
+    width: 70px;
+    height: 70px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+.homeButton:hover {
+    background-color: #E3C2E2;
+}
+.leftbutton {
+    position: absolute;
+    left: 90%;
+    top: 230%;
+    width: 70px;
+    height: 70px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color : #ffffff;
+    text-align: center;
+    line-height: 50%;
+    font-size: 30px;
+}
+.leftbutton:hover {
+    background-color: #FFE600;
+    color : #ffffff;
+}
+.rightbutton {
+    position: absolute;
+    left: 95%;
+    top: 230%;
+    width: 70px;
+    height: 70px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color : #ffffff;
+    text-align: center;
+    line-height: 50%;
+    font-size: 30px;
+}
+.rightbutton:hover {
+    background-color: #FFE600;
+    color : #ffffff;
+}
+.line1 {
+    position: absolute;
+    border: 2px solid #D7BBBB;
+    width: 100%;
+    left: 0%;
+    top: 5%
+}
+.line2 {
+    position: absolute;
+    border: 2px solid #EFE2A4;
+    width: 45%;
+    left: 48%;
+    top: 15%;
+}
+.line4 {
+    position: absolute;
+    border: 2px solid #D7BBBB;
+    width: 100%;
+    left: 0%;
+    top: 140%; 
+}
+.line3 {
+    position: absolute;
+    border: 2px solid #E9DDDD;
+    transform: rotate(-90deg);
+    width: 80%;
+    left: -4%;
+    top: 150%;
+}
+.line5 {
+    position: absolute;
+    border: 2px solid #D9BD2A;
+    width: 100%;
+    left: 0%;
+    top: 220%;
+}
