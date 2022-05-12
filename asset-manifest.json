@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/artudent-exhibit-web/static/css/main.e7fe21ae.chunk.css",
+    "main.js": "/artudent-exhibit-web/static/js/main.9d936ba8.chunk.js",
+    "main.js.map": "/artudent-exhibit-web/static/js/main.9d936ba8.chunk.js.map",
+    "runtime-main.js": "/artudent-exhibit-web/static/js/runtime-main.a8a9f3ee.js",
+    "runtime-main.js.map": "/artudent-exhibit-web/static/js/runtime-main.a8a9f3ee.js.map",
+    "static/css/2.40e60438.chunk.css": "/artudent-exhibit-web/static/css/2.40e60438.chunk.css",
+    "static/js/2.c2de67ad.chunk.js": "/artudent-exhibit-web/static/js/2.c2de67ad.chunk.js",
+    "static/js/2.c2de67ad.chunk.js.map": "/artudent-exhibit-web/static/js/2.c2de67ad.chunk.js.map",
+    "index.html": "/artudent-exhibit-web/index.html",
+    "precache-manifest.7e2cb0b5a487e0e289f0b068744a3900.js": "/artudent-exhibit-web/precache-manifest.7e2cb0b5a487e0e289f0b068744a3900.js",
+    "service-worker.js": "/artudent-exhibit-web/service-worker.js",
+    "static/css/2.40e60438.chunk.css.map": "/artudent-exhibit-web/static/css/2.40e60438.chunk.css.map",
+    "static/css/main.e7fe21ae.chunk.css.map": "/artudent-exhibit-web/static/css/main.e7fe21ae.chunk.css.map",
+    "static/js/2.c2de67ad.chunk.js.LICENSE.txt": "/artudent-exhibit-web/static/js/2.c2de67ad.chunk.js.LICENSE.txt",
+    "static/media/AA.png": "/artudent-exhibit-web/static/media/AA.5da5f9e7.png",
+    "static/media/Background.png": "/artudent-exhibit-web/static/media/Background.0e4ddf8e.png",
+    "static/media/ExhibitionImg.jpg": "/artudent-exhibit-web/static/media/ExhibitionImg.d06342e6.jpg",
+    "static/media/artwork.png": "/artudent-exhibit-web/static/media/artwork.0e4ddf8e.png",
+    "static/media/exhibitImg.jpg": "/artudent-exhibit-web/static/media/exhibitImg.1f4b9743.jpg",
+    "static/media/mainImg.png": "/artudent-exhibit-web/static/media/mainImg.6a0f40a2.png",
+    "static/media/opacity.png": "/artudent-exhibit-web/static/media/opacity.c3f4ba9a.png",
+    "static/media/subscribeButton.png": "/artudent-exhibit-web/static/media/subscribeButton.9bced92e.png",
+    "static/media/upload.png": "/artudent-exhibit-web/static/media/upload.8f329fa2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8a9f3ee.js",
+    "static/css/2.40e60438.chunk.css",
+    "static/js/2.c2de67ad.chunk.js",
+    "static/css/main.e7fe21ae.chunk.css",
+    "static/js/main.9d936ba8.chunk.js"
+  ]
+}
